@@ -1,0 +1,18 @@
+# ScribbleLabApp CODEOWNERS file
+# Copyright (c) 2024 - 2025 ScribbleLabApp LLC. All rights reserved
+
+# Each line is a file pattern followed by one or more owners.
+# Owners can be individual users or teams.
+
+# Example: Assign all files to a specific team
+# *       @your-org/team-name
+
+# Example: Assign specific files or directories to individual users
+# /docs/  @username
+# /src/   @another-username
+
+# Example: Assign specific file types to a team
+# *.js    @your-org/frontend-team
+# *.css   @your-org/frontend-team
+
+# Example: Assign a specific file to a user
