@@ -1,0 +1,56 @@
+version: 2.1
+orbs:
+  node: circleci/node@5
+  codecov: codecov/codecov@5
+
+jobs:
+  build: 
+    executor: node/default
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: npm
+      - run: 
+          name: Install dependencies
+          command: npm install
+      - run:
+          name: Build Package
+          command: npm run build && npm run prepublishOnly
+      - run:
+          name: Create the ~/artifacts directory if it doesn't exist
+          command: mkdir -p ~/artifacts
+      - run:
+          name: Copy artifacts
+          command: cp -R dist ~/artifacts 2>/dev/null || true
+      - store_artifacts:
+          path: ~/artifacts
+          destination: node-build
+  test:
+    executor: node/default
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: npm
+      - run: 
+          name: Install dependencies
+          command: npm install
+      - run:
+          name: Run tests
+          command: npx jest --coverage
+      - run:
+          name: Store test results
+          command: mkdir -p ~/artifacts/test-results && cp -R test-results ~/artifacts/test-results
+      - store_artifacts:
+          path: ~/artifacts
+          destination: node-build
+
+workflows:
+  build_and_test:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
+      - codecov/upload:
+          requires:
+            - test
