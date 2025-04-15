@@ -5,40 +5,43 @@ Thank you for your interest in contributing to ScribbleLabDocsKit! We welcome co
 ## Getting Started
 
 1. **Join the Community**  
-    Connect with us on [Discord](https://discord.gg/your-discord-link) to discuss ideas, ask questions, and collaborate with other contributors.
+   Connect with us on [Discord](https://discord.gg/your-discord-link) to discuss ideas, ask questions, and collaborate with other contributors.
 
 2. **Understand the Project**  
-    Familiarize yourself with the project by reading the [README](./README.md) and exploring the codebase.
+   Familiarize yourself with the project by reading the [README](./README.md) and exploring the codebase.
 
 3. **Code of Conduct**  
-    Please read and adhere to our [Code of Conduct](./CODE_OF_CONDUCT.md) to ensure a welcoming environment for everyone.
+   Please read and adhere to our [Code of Conduct](./CODE_OF_CONDUCT.md) to ensure a welcoming environment for everyone.
 
 ## How to Contribute
 
 ### Reporting Issues
+
 - Search the [issue tracker](https://github.com/your-repo/issues) to see if your issue has already been reported.
 - If not, create a new issue with a clear and descriptive title and detailed information.
 
 ### Submitting Code
+
 1. **Fork the Repository**  
-    Fork the repository and clone it to your local machine.
+   Fork the repository and clone it to your local machine.
 
 2. **Set Up Your Environment**  
-    Follow the [Setup Guide](./SETUP.md) to prepare your development environment.
+   Follow the [Setup Guide](./SETUP.md) to prepare your development environment.
 
 3. **Follow Code Style Guidelines**  
-    Ensure your code adheres to our [Code Style Guidelines](./CODE_STYLE.md).
+   Ensure your code adheres to our [Code Style Guidelines](./CODE_STYLE.md).
 
 4. **Write Tests**  
-    Add or update tests to cover your changes. Refer to the [Testing Guide](./TESTING.md) for details.
+   Add or update tests to cover your changes. Refer to the [Testing Guide](./TESTING.md) for details.
 
 5. **Commit Changes**  
-    Write clear and concise commit messages. Follow the [Conventional Commits](https://www.conventionalcommits.org/) specification.
+   Write clear and concise commit messages. Follow the [Conventional Commits](https://www.conventionalcommits.org/) specification.
 
 6. **Submit a Pull Request**  
-    Push your changes to your fork and open a pull request. Include a detailed description of your changes and reference any related issues.
+   Push your changes to your fork and open a pull request. Include a detailed description of your changes and reference any related issues.
 
 ### Improving Documentation
+
 - Fix typos, clarify instructions, or add new sections to improve the documentation.
 - Submit your changes as a pull request.
 

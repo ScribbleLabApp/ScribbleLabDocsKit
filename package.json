@@ -1,0 +1,37 @@
+{
+  "name": "scribblelabdocskit",
+  "version": "1.0.0",
+  "description": "ScribbleLabDocsKit is a flexible, customizable documentation toolkit developed by ScribbleLabApp. ScribbleLabDocsKit makes it simple to create professional, user-friendly docs that align with your app’s design.",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsup src/index.ts --format esm,cjs --dts --out-dir dist",
+    "lint": "prettier . --write",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ScribbleLabApp-Community/ScribbleLabDocsKit.git"
+  },
+  "keywords": ["docs", "documentation", "toolkit"],
+  "author": "NH, ScribbleLabApp",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^3.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.1.2",
+    "jest": "^29.7.0",
+    "react-test-renderer": "^19.1.0",
+    "ts-jest": "^29.3.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}
