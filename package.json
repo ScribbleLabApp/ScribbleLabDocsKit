@@ -1,5 +1,5 @@
 {
-  "name": "@scribblelab/docs",
+  "name": "@scribblelabapp/docs",
   "version": "1.0.0",
   "description": "ScribbleLabDocsKit is a flexible, customizable documentation toolkit developed by ScribbleLabApp. ScribbleLabDocsKit makes it simple to create professional, user-friendly docs that align with your app’s design.",
   "main": "dist/index.js",
