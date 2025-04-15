@@ -44,8 +44,7 @@ jobs:
           command: mkdir -p ~/artifacts/test-results && cp -R test-results ~/artifacts/test-results
       - store_test_results:
           path: ~/artifacts/test-results
-      - codecov/upload:
-          file: coverage/lcov.info
+      - codecov/upload
       
 workflows:
   build_and_test:
