@@ -14,7 +14,11 @@
     "type": "git",
     "url": "https://github.com/ScribbleLabApp-Community/ScribbleLabDocsKit.git"
   },
-  "keywords": ["docs", "documentation", "toolkit"],
+  "keywords": [
+    "docs",
+    "documentation",
+    "toolkit"
+  ],
   "author": "NH, ScribbleLabApp",
   "license": "MIT",
   "dependencies": {
